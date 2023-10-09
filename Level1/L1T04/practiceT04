@@ -1,0 +1,52 @@
+number_str = "10"
+print(number_str * 2 )  # Prints 1010- prints string twice
+print(int(number_str) * 2)  # Prints 20 because the string 10 is cast to number 10
+
+print()
+
+# type function
+mystery_1 = "10"
+mystery_2 = 10.6
+mystery_3 = "ten"
+mystery_4 = True
+
+print(type(mystery_1))
+print(type(mystery_2))
+print(type(mystery_3))
+print(type(mystery_4))
+
+print()
+
+# separate integer numbers with an underscore_ when in the thousands.
+number = 15_000_300
+new_number = number + 300
+
+print(new_number)
+print(type(number))
+
+# casting - convert the data type
+number1 = 20
+number_str1 = "20"
+print(number1 + int(number_str1))  # Prints 40
+
+print()
+
+# convert the variable type entered via input() function
+num_days = int(input("How many days did you work this month? "))
+pay_per_day = float(input("How much is your pay per day? "))
+
+salary = num_days * pay_per_day
+
+print("My salary for the month is USD: {}".format(salary))
+
+print()
+
+# a f-string
+num_days = 28
+pay_per_day = 50
+print(f"I worked {num_days} days this month. I earned ${pay_per_day} per day.")
+
+print()
+
+# you can also use the str.format() method 
+print("You worked {num_days} days this month and earned ${pay_per_day} per day".format(num_days = 22, pay_per_day = 50))
