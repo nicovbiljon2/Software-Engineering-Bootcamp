@@ -1,2 +1,2 @@
-# Started my Software-Engineering Bootcamp course at HyperionDev. 
-# Currently busy with Level 1 - Intro to Programming
+# Learning the fundamentals of Python programming
+# 
